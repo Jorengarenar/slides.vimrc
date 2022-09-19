@@ -34,7 +34,7 @@ function! TabLine() abort
   endwhile
 
   let l:ed = l:cur+1 < l:last ? l:cur+1 : l:cur
-  while l:ed < l:last-1 && ReduceLen(l:st, l:ed) < &columns
+  while l:ed < l:last-1 && ReduceLen(l:st, l:ed+1) < &columns
     let l:ed += 1
   endwhile
 
