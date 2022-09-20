@@ -104,6 +104,7 @@ augroup SLIDES
 augroup END
 
 hi! Folded  cterm=italic ctermfg=245 ctermbg=NONE
+hi! EndOfBuffer ctermfg=bg ctermbg=bg guifg=bg guibg=bg
 
 " SOURCE LOCAL {{{1
 
