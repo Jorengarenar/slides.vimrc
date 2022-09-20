@@ -103,6 +103,8 @@ augroup SLIDES
   autocmd WinEnter * redraw!
 augroup END
 
+let g:netrw_dirhistmax = 0
+
 hi! Folded  cterm=italic ctermfg=245 ctermbg=NONE
 hi! EndOfBuffer ctermfg=bg ctermbg=bg guifg=bg guibg=bg
 
